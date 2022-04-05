@@ -1,0 +1,11 @@
+
+.container {
+    display: flex;
+    
+    flex-flow: column wrap;
+    flex-flow: row wrap;
+    position: relative;
+
+    justify-content:space-evenly;
+
+}

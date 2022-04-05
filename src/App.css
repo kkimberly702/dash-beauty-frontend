@@ -1,38 +1,62 @@
 .App {
+  color: black;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 0px;
+  background-color: black;
+
+}
+
+
+#title {
   text-align: center;
+  font-size:30px; 
+  font-weight:500; 
+  color:#222; 
+  letter-spacing:7px;
+  text-transform: uppercase;
+  font-family:'Times New Roman', Times, serif;
+  margin-bottom: 60px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+
+.links {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 200;
+  padding: 10px;
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a:link {
+  text-decoration: none;
+  color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a:visited {
+  text-decoration: none;
+  color: black;
 }
 
-.App-link {
-  color: #61dafb;
+a:hover {
+  color: black;
+  box-shadow: 1px 0px 1px 0px gray;
+  top: -5px;
+  left: -5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a:active {
+  color: black;
 }
+
+
+
+
+
+
+
+
+
+
+
